@@ -41,7 +41,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Tanmay-S/ts-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
