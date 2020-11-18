@@ -1,11 +1,11 @@
 package com.ahc.tspetclinic.services.map;
 
 import com.ahc.tspetclinic.model.Pet;
-import com.ahc.tspetclinic.services.CrudService;
+import com.ahc.tspetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
